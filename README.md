@@ -10,20 +10,19 @@ This Python project uses the [DeepFace](https://github.com/serengil/deepface) li
 - Retrains authorized embeddings every time the app is launched  
 
 ## Project Structure
-face-auth-app/
-│
-├── auth/ # Folder with authorized user face images
-│ ├── 1.jpg
-│ └── 2.jpg
-│
-├── main.py # Main face authentication script
-├── requirements.txt # Python dependencies
-└── README.md # This file
+-face-auth-app/
+-│
+-├── auth/ # Folder with authorized user face images
+-│ ├── 1.jpg
+-│ └── 2.jpg
+-│
+-├── main.py # Main face authentication script
+-├── requirements.txt # Python dependencies
+-└── README.md # This file
 
 ##  How It Works
 1. Add one or more clear images of authorized users in the `auth/` folder.  
 2. Run the app using:
-   ```bash
    python main.py
 The GUI will launch with a live webcam feed.
 
@@ -35,9 +34,6 @@ If no match is found, access is denied.
 
 ## Install dependencies using:
 
-bash
-Copy
-Edit
 pip install -r requirements.txt
 requirements.txt:
 
